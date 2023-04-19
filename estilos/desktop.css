@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+header{
+  padding-left: 0;
+}
+
+#txt, #itxt{
+    left: 5%;
+}
+
+#botoes{
+    left: 5.5%;
+}
+
+#box{
+    width: 35vw;
+}
+
+#iout{
+    width: 33vw;
+}
+
+#copy{
+    left: 15.5%;
+}
