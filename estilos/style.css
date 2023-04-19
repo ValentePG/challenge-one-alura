@@ -1,0 +1,233 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap');
+
+/* Typical Device Breakpoints 
+-----------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: acima de 1200px
+-----------------------------
+*/
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    body, header , #container, #itxt{
+        background-color: #F3F5FC;
+    }
+
+    header{
+        padding-top: 30px;
+        padding-left: 30px;
+    }
+
+    main{
+      position: absolute;
+      width: 100vw;
+      height: 87vh;
+    }
+
+    /* principal */
+
+    #box{
+        position: absolute;
+        /* right: 150px; */
+        right: 3%;
+        top: 1%;
+        display: block;
+        border-radius: 30px;
+        background-color: #FFFFFF;
+        box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.452);
+        height: 755px;
+        width: 28vw;
+    }
+
+    #boxcontent1{
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+    }
+
+    #msg{
+        width: 250px;
+        height: 150px;
+        position: absolute;
+        left: 50%;
+        top: 130%;
+        transform: translate(-50%, -50%);
+        font-family: 'Inter', sans-serif;
+        text-align: center;
+    }
+    
+    #msg h1{
+      font-size: 25px;
+      font-weight: bold;
+      padding-bottom: 20px;
+    }
+
+    #msg p,h1{
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.178);
+    }
+
+    /* botões */
+
+    #botoes{
+        position: absolute;
+        left: 12.5%;
+        top: 84%;
+    }
+
+    #botao1{
+        background-color:#0A3871;
+        color: white;
+    }
+
+    #botao1:hover{
+        background-color:rgb(255, 255, 255);
+        transition-duration: 0.5s;
+        color: #0A3871;
+    }
+
+    #botao2{
+        background-color: #D8DFE8;
+        color: #0A3871;
+    }
+
+    #botao2:hover{
+        background-color: rgba(255, 255, 255, 0.534);;
+        transition-duration: 0.5s;
+    }
+
+    #botao1, #botao2{
+        padding: 20px;
+        border-radius: 20px;
+        border: 2px solid #0A3871;;
+        /* width: 446px; */
+        width: 23.3vw;
+        margin-left: 10px;
+        font-size: 20px;
+        font-family: 'Inter', sans-serif;
+        font-weight: lighter;
+        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    }
+
+    /* TextAreas */
+
+    #txt{
+        position: absolute;
+        left: 12%;
+        /* top: 12%; */
+        top: 2%;
+    }
+
+    #itxt{
+        height: 600px;
+        /* width: 860px; */
+        width : 47.5vw;
+        resize: none;
+        border: none;
+        /* outline: 0; */
+        font-family: 'Inter', sans-serif;
+        font-size: 30px;
+        border-radius: 10px;
+        padding: 20px;
+    }
+    
+    #iout{
+        position: absolute;
+        top: 30px;  
+        left: 5%;
+        width: 26.6vw;
+        height: 600px;
+        outline: 0;
+        resize: none;
+        border: none;
+        border-radius: 5px;
+        font-family: 'Inter', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        line-height: 1.2em;
+        
+        
+      }
+      
+      /* Scrollbar das TextAreas */
+
+      #iout::-webkit-scrollbar, #itxt::-webkit-scrollbar{
+        width: 10px;
+      }
+      
+      #iout::-webkit-scrollbar-track, #itxt::-webkit-scrollbar-track{
+        background-color: rgba(37, 35, 35, 0);
+      }
+
+      #iout::-webkit-scrollbar-thumb, #itxt::-webkit-scrollbar-thumb{
+        background-color: #D8DFE8;
+        border-radius: 20px;
+        border: 3px solid rgba(37, 35, 35, 0.137);
+      }
+
+      #iout::-webkit-scrollbar-thumb:hover, #itxt::-webkit-scrollbar-thumb:hover{
+        background-color: #0A3871;
+        transition-duration: 3s;
+      }
+
+      /* Botão de Copiar */
+
+      #copy{
+
+        position: absolute;
+        top: 650px;
+        left: 28%;
+        width: 250px;
+        border-radius: 20px;
+        border: 2px solid #0A3871;;
+        padding: 20px;
+        background-color: #D8DFE8;
+        color: #0A3871;
+        font-family: "Inter", sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5) ;
+      }
+
+      #copy:hover {
+
+        background-color: rgba(255, 255, 255, 0.534);
+        transition-duration: 0.5s;
+      }
+
+    /* footer */
+
+    footer{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        color: #E5E5E5;
+        background-image: linear-gradient(to right, #0A3871,  #0a3871bd);
+        padding: 10px;
+        text-align: center;
+        font-family: 'Inter', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.418);
+    }
+
+
+    footer a {
+        color: white;
+        text-decoration: none;
+    }
+
+
+    footer a :hover{
+        color: #1e207a7c;
+    }
+
+  
