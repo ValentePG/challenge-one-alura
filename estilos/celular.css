@@ -3,13 +3,18 @@
 main {
   width: 80vw;
 }
+#txt, #itxt{
+  width: 72vw;
+}
+
 #botoes{
-  width: 74vw;
+  width: 80vw;
   top: 60%;
+  left: 11%;
 }
 
 #botao1, #botao2{
-  width: 72vw;
+  width: 77vw;
   margin-top: 20px;
 }
 
@@ -25,8 +30,8 @@ main {
 
 #box{
   top: 86%;
-  left: 12.5%;
-  width: 78vw;
+  left: 12.6%;
+  width: 80vw;
   height: 300px;
 }
 
