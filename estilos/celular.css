@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+header {
+  padding-left: 0;
+}
+
+#img{
+  display: none;
+}
+
+#box{
+  width: 80%;
+  height: 22vh;
+  top: 72%;
+  left: 10%;
+}
+
+#iout{
+  width: 80%;
+  height: 13vh;
+  top: 7%;
+  left: 10%;
+  font-size: 1.2em;
+}
+
+#copy{
+  top: 70%;
+  left: 6%;
+  width: 70vw;
+  padding: 5px;
+}
+
+#msg{
+  width: 40vw;
+  height: 12vh;
+}
+
+#txt, #itxt{
+  height: 45vh;
+  width: 70vw;
+}
+
+#botoes{
+  top: 62%;
+  width: 80vw;
+}
+
+#botao1, #botao2{
+  width: 34.3vw;
+}

@@ -54,8 +54,8 @@ Grandes telas: acima de 1200px
     }
 
     #msg{
-        width: 250px;
-        height: 150px;
+        width: 22vw;
+        height: 15vh;
         position: absolute;
         left: 50%;
         top: 130%;
@@ -142,7 +142,7 @@ Grandes telas: acima de 1200px
         position: absolute;
         top: 30px;  
         left: 5%;
-        width: 26.6vw;
+        width: 26vw;
         height: 600px;
         outline: 0;
         resize: none;
@@ -183,8 +183,8 @@ Grandes telas: acima de 1200px
 
         position: absolute;
         top: 650px;
-        left: 28%;
-        width: 250px;
+        left: 7%;
+        width: 24vw;
         border-radius: 20px;
         border: 2px solid #0A3871;;
         padding: 20px;
