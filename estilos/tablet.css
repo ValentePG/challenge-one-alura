@@ -9,24 +9,24 @@ header {
 }
 
 #box{
-  width: 80%;
+  width: 75%;
   height: 22vh;
   top: 72%;
-  left: 10%;
+  left: 12%;
 }
 
 #iout{
-  width: 80%;
+  width: 88%;
   height: 13vh;
   top: 7%;
-  left: 10%;
+  left: 6%;
   font-size: 1.2em;
 }
 
 #copy{
   top: 70%;
   left: 6%;
-  width: 70vw;
+  width: 66vw;
   padding: 5px;
 }
 
