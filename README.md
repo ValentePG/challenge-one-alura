@@ -13,3 +13,4 @@ Projeto quase pronto alguns problemas:
 6 - Responsividade pode ser melhorada
 
 Mesmo assim, esta tudo funcionando. :)
+![badge](https://user-images.githubusercontent.com/112831085/233794361-50e8a617-aa38-4175-a093-76519fc7778c.png)
