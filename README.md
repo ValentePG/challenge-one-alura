@@ -1,7 +1,9 @@
 # challenge-one-alura
  Challenge 1 - One
 
-Projeto feito sem flexbox nem grid!
+Encriptador e desencriptador de mensagens.
+Projeto feito sem flexbox nem grid.
+Tecnologias usadas: HTML - CSS - JS
 
 Projeto quase pronto alguns problemas:
 
