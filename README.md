@@ -12,7 +12,7 @@
 
 ## 💻 Projeto 
 1º Projeto desenvolvido durante o programa ONE da Alura com a Oracle
-[Você pode visitar o site aqui](valentepg.github.io/challenge-one-alura/)
+[Você pode visitar o site aqui](valentepg.github.io/challenge-one-alura)
 
 ## 🛠️ Funcionalidades
 Encripta e Desencripta mensagens 
