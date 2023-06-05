@@ -12,6 +12,7 @@
 
 ## 💻 Projeto 
 1º Projeto desenvolvido durante o programa ONE da Alura com a Oracle
+[Você pode visitar o site aqui](https://valentepg.github.io/nlw-spacetime/)
 
 ## 🛠️ Funcionalidades
 Encripta e Desencripta mensagens 
