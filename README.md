@@ -1,4 +1,4 @@
-#Challenge One Alura
+# Challenge One Alura
 <!-- Projeto quase pronto alguns problemas:
 
 1 - Repetição de códigos excessiva
@@ -8,10 +8,13 @@
 5 - Estrutura do HTML pode ser melhorada!
 6 - Responsividade pode ser melhorada -->
 
-![badge](https://user-images.githubusercontent.com/112831085/233794361-50e8a617-aa38-4175-a093-76519fc7778c.png)
+<div align="center"><img src="https://user-images.githubusercontent.com/112831085/233794361-50e8a617-aa38-4175-a093-76519fc7778c.png"></div>
 
 ## 💻 Projeto 
 1º Projeto desenvolvido durante o programa ONE da Alura com a Oracle
+
+## 🛠️ Funcionalidades
+Encripta e Desencripta mensagens 
 
 ## 🚀 Tecnologias 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
