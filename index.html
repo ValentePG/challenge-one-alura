@@ -11,39 +11,37 @@
   <title>Alura Challenge</title>
 </head>
 <body>
-    <!-- Preciso Organizar melhor o html e refazer o responsivo -->
-    <header>
-        <a href="https://www.alura.com.br/" rel="external" target="_blank"><img src="imagens/Frame_6.png" alt="Alura"></a>
-    </header>
+  <header>
+    <a href="https://www.alura.com.br/" rel="external" target="_blank"><img src="imagens/Frame_6.png" alt="Alura"></a>
+  </header>
 
-    <main id="container">
-            <section id="txt">
-                <textarea name="texto" id="itxt" cols="30" rows="10" placeholder="Insira um texto aqui" autofocus required minlength="5"></textarea>
-            </section>
-            <section id="botoes">
-                <button id="botao1">Criptografar</button>
-                <button id="botao2">Descriptografar</button>
-            </section>
-            
-            <section id="box">
-                <div id="boxcontent1">
-                    <img id="img" src="imagens/imagem.png" alt="algo">
-                    <div id="msg">
-                        <h1>Nenhuma mensagem encontrada</h1>
-                        <p>Digite um texto que você deseja criptografar ou descriptografar</p>
-                    </div>
-                </div>
+<main id="container">
+  <section id="txt">
+    <textarea name="texto" id="itxt" cols="30" rows="10" placeholder="Insira um texto aqui" autofocus required minlength="5"></textarea>
+  </section>
+  <section id="botoes">
+    <button id="botao1">Criptografar</button>
+    <button id="botao2">Descriptografar</button>
+  </section>
+  
+  <section id="box">
+    <div id="boxcontent1">
+      <img id="img" src="imagens/imagem.png" alt="algo">
+      <div id="msg">
+          <h1>Nenhuma mensagem encontrada</h1>
+          <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+      </div>
+    </div>
 
-                <div id="boxcontent2">
-                    <textarea name="out" id="iout" cols="30" rows="10" readonly placeholder="Nenhuma Mensagem"></textarea>
-                    <button id="copy">Copiar</button>
-                </div>
-            </section>
-    </main>
-
-    <footer>
-        <p>Site criado por <a href="https://github.com/ValentePG" rel="external" target="_blank" title="GitHub"><strong>Gabriel Valente</strong></a></p>
-    </footer>
+    <div id="boxcontent2">
+      <textarea name="out" id="iout" cols="30" rows="10" readonly placeholder="Nenhuma Mensagem"></textarea>
+      <button id="copy">Copiar</button>
+    </div>
+  </section>
+</main>
+<footer>
+    <p>Site criado por <a href="https://github.com/ValentePG" rel="external" target="_blank" title="GitHub"><strong>Gabriel Valente</strong></a></p>
+</footer>
 <script>
     
     document.getElementById("boxcontent2").style.display = "none";
