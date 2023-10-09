@@ -1,0 +1,66 @@
+:root {
+
+  --darkblue100: #609ED4;
+  --darkblue200: #356EA9;
+  --darkblue300: #0A3871;
+  --darkblue400: #072B61;
+  --darkblue500: #052051;
+
+  --lightblue100: #F3F5FC;
+  --lightblue200: #EFF1FA;
+  --lightblue300: #E9ECF8;
+  --lightblue400: #AAB2D5;
+  --lightblue500: #757FB2;
+
+  --gray100: #CED4DA;
+  --gray200: #ADB5BD;
+  --gray300: #868E96;
+  --gray400: #495057;
+  --gray500: #343A40;
+
+  font-family: 'Inter', sans-serif;
+  box-sizing: border-box;
+
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  padding: 16px;
+}
+
+button {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+
+textarea {
+  width: 100%;
+  height: 50vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.componentes {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+footer {
+  background-color: var(--darkblue200);
+  text-align: center;
+  padding: 12px 24px;
+}
