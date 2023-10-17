@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Descriptografador</title>
   <link rel="stylesheet" href="telaprincipal/telaprincipal.css">
+  <link rel="stylesheet" href="components/criptografia/criptografia.css">
+  <link rel="stylesheet" href="components/descriptografia/descriptografar.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
@@ -16,15 +18,23 @@
   </header>
   <main class="container">
     <section class="componentes">
-      <textarea name="entrada" id="entrada" cols="30" rows="10" placeholder="Digite algo aqui"></textarea>
+      <textarea name="entrada" id="entrada_usuario" cols="30" rows="10" placeholder="Digite algo aqui"></textarea>
       <small>Apenas letras minúsculas e sem acento</small>
       <button>Descriptografar</button>
-      <button>Criptografar</button>
+      <button class="criptografar">Criptografar</button>
     </section>
+    <section class="saida_texto">
+      <div class="sem_mensagem">
+        <h1>Nenhuma mensagem encontrada</h1>
+        <p>Digite o texto que você deseja criptografar ou Descriptografar</p>
+      </div>
+    </section>
+
   </main>
   <footer>
     <p>Site criado por Gabriel Valente &copy;</p>
   </footer>
+  <script type="module" src="telaprincipal/index.js"></script>
 </body>
 
 </html>
