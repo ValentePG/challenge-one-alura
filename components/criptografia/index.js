@@ -1,13 +1,10 @@
+import renderizarDiv from "/components/renderizarDiv/index.js";
+
 export default function criptografar() {
-  const comMensagem = document.querySelector('.saida_texto');
+
   const entradaUsuario = document.querySelector('#entrada_usuario');
-  const textoSubstituido = substituirLetras(entradaUsuario.value);
-  
-  comMensagem.innerHTML = `
-  <div class="com_mensagem">
-    <textarea name="texto" id="texto" cols="30" rows="20" class="text-area" readonly>${textoSubstituido}</textarea>
-    <button class="botao_fundo--claro copiar">Copiar</button>
-  </div>`
+  const entradaSubstituida = substituirLetras(entradaUsuario.value);
+  renderizarDiv(entradaSubstituida)
 }
 
 function substituirLetras(entradaUsuario) {

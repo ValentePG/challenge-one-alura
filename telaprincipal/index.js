@@ -5,6 +5,6 @@ import copiarTextoDoUsuario from '/components/copiarTexto/index.js';
 const criptografador = document.querySelector('.criptografar');
 criptografador.addEventListener('click', criptografar);
 
-const descriptografador = document.querySelector('.criptografar');
+const descriptografador = document.querySelector('.descriptografar');
 descriptografador.addEventListener('click', descriptografar);
 
